@@ -1,9 +1,11 @@
-#heading1{
-    font-size: 100px;
-    text-decoration: underline;   
+body {
+    font-family: Arial, Verdana, sans-serif;
 }
 
-.smallestHeading{
-    border: 2px solid green;
-    font-size: 100px;
+h1, h2 {
+    color: #ee3e80;
+}
+
+p {
+    color: #665544;
 }
