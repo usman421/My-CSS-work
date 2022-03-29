@@ -1,4 +1,4 @@
-/* universal selector */
-*{
-    color:tomato; background-color: black; font-family: fantasy; font-size:110%;
+/* class selector */
+.b1{
+    color:yellow;background-color: seagreen;font-family: cursive;font-size: 100%;
 }
