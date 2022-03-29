@@ -1,4 +1,13 @@
-/* class selector */
-.b1{
-    color:yellow;background-color: seagreen;font-family: cursive;font-size: 100%;
+h1{
+    color: orangered;
+}
+h2{
+    color: #ee82ee;
+}
+p{
+    color: rgb(255, 165, 0);
+
+}
+h1,h2,p{
+    font-size: 150%;background-color:black;
 }
