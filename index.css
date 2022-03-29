@@ -1,6 +1,4 @@
-h1{
-    color:blue
-}
-h2,p{
-    color:tomato; background-color: black; font-family: fantasy; font-size:200%;
+/* universal selector */
+*{
+    color:tomato; background-color: black; font-family: fantasy; font-size:110%;
 }
