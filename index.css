@@ -9,5 +9,5 @@ p{
 
 }
 h1,h2,p{
-    font-size: 150%;background-color:black;
+    font-size: 150%;background-color:black; opacity: 0.5;
 }
