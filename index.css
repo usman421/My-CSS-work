@@ -10,12 +10,15 @@ p{
     text-transform: capitalize;
     font-size: large;
 }
-.u{
-    text-decoration: underline;
+.li{
+    /* lines are spaced by 2em */
+    line-height: 2em;
 }
-.o{
-    text-decoration: overline;
+.w{
+    /* words are spaced by 2em */
+    word-spacing: 2em;
 }
-.lt{
-    text-decoration: line-through;
+.le{
+    /* letters are spaced by 2em */
+    letter-spacing: 2em;
 }
