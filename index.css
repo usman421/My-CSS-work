@@ -6,15 +6,7 @@ h1{
 }
 p{
     color: aqua;
-    background-color: teal;
-    font-size: 5em;
-}
-.b{
-    font-weight: bold;
-}
-.n{
-    font-weight: normal;
-}
-.o{
-    font-style: oblique;
+    background-color: black;
+    text-transform: uppercase;
+    font-size: large;
 }
