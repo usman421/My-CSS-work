@@ -10,15 +10,19 @@ p{
     text-transform: capitalize;
     font-size: large;
 }
-.li{
-    /* lines are spaced by 2em */
-    line-height: 2em;
+.a{
+    /* right alignment */
+    text-align: right;
 }
-.w{
-    /* words are spaced by 2em */
-    word-spacing: 2em;
+.b{
+    /* left alignment */
+    text-align: left;
 }
-.le{
-    /* letters are spaced by 2em */
-    letter-spacing: 2em;
+.c{
+    /* center alignment */
+    text-align: center;
+}
+.d{
+    /* Justify alignment */
+    text-align: justify;
 }
