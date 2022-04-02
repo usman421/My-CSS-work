@@ -10,3 +10,12 @@ p{
     text-transform: capitalize;
     font-size: large;
 }
+.u{
+    text-decoration: underline;
+}
+.o{
+    text-decoration: overline;
+}
+.lt{
+    text-decoration: line-through;
+}
