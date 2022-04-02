@@ -5,12 +5,17 @@ h1{
     background-color: maroon;
     font-family: serif;
 }
-.pix{
-    font-size: 80px;
+.ser{
+    font-family: serif;
 }
-.per{
-    font-size: 300%;
+.mon{
+    font-family: monospace;
 }
-.em{
+.geo{
+    font-family: Georgia;
+}
+p{
+    color: aqua;
+    background-color: teal;
     font-size: 5em;
 }
