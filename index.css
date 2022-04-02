@@ -7,6 +7,6 @@ h1{
 p{
     color: aqua;
     background-color: black;
-    text-transform: uppercase;
+    text-transform: lowercase;
     font-size: large;
 }
