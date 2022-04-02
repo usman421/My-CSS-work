@@ -1,3 +1,7 @@
+@font-face{
+    font-family: SendFlowers;
+    src:url('SendFlowers-Regular.ttf')
+}
 h1{
     text-align: center;
     font-size: 3em;
@@ -5,17 +9,9 @@ h1{
     background-color: maroon;
     font-family: serif;
 }
-.ser{
-    font-family: serif;
-}
-.mon{
-    font-family: monospace;
-}
-.geo{
-    font-family: Georgia;
-}
 p{
     color: aqua;
     background-color: teal;
     font-size: 5em;
+    font-family: SendFlowers;
 }
