@@ -5,10 +5,11 @@ h1{
     background-color: maroon;
     text-shadow: 2px 2px 3px blue;
 }
-input:hover{
-    background-color: blue;
+
+input:focus{
+    background-color: red;
 }
-button:hover{
-    color: aqua;
-    background-color: teal;
+button:focus{
+    background-color: yellow;
+    color:black
 }
