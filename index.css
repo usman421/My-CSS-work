@@ -5,7 +5,8 @@ h1{
     background-color: maroon;
     text-shadow: 2px 2px 3px blue;
 }
-p{
+/* changes only the size of first letter */
+p:first-letter{
     font-size: 100px;
-    text-shadow: 3px 3px 4px blue;
 }
+
