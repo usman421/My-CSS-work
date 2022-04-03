@@ -1,28 +1,11 @@
 h1{
     text-align: center;
-    font-size: 3em;
+    font-size: 7em;
     color: red;
     background-color: maroon;
+    text-shadow: 2px 2px 3px blue;
 }
 p{
-    color: aqua;
-    background-color: black;
-    text-transform: capitalize;
-    font-size: large;
-}
-.a{
-    /* right alignment */
-    text-align: right;
-}
-.b{
-    /* left alignment */
-    text-align: left;
-}
-.c{
-    /* center alignment */
-    text-align: center;
-}
-.d{
-    /* Justify alignment */
-    text-align: justify;
+    font-size: 100px;
+    text-shadow: 3px 3px 4px blue;
 }
