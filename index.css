@@ -5,25 +5,14 @@ h1{
     background-color: maroon;
     text-shadow: 2px 2px 3px blue;
 }
+/* These are the different styles of lists in CSS */
 .a{
-    border: 50px ridge olive ;
-    background-color: rgb(29, 29, 49);
-    color: aqua;
-    text-align: centre;
-    min-width: 24%;
-    max-width: 30%;
-    min-height: 150px;
-    max-height: 200px;
-    box-shadow: 10px 10px 3px olivedrab;
-    /* it will make borders rounded */
-    border-radius: 30px;
-    
+    list-style-type: disc;
 }
-/* it will make block level elements Inline */
-li{
-    background-color: navy;
-    padding: 5px;
-    margin: 5px;
-    display: inline;
+.b{
+    list-style-type: circle;
+}
+.c{
+    list-style-type: square;
 }
 
