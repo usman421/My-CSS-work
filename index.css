@@ -5,30 +5,24 @@ h1{
     background-color: maroon;
     text-shadow: 2px 2px 3px blue;
 }
-p{
-    /* These are the changes to the paragraph only */
-    background-color: black;
-    border: 5px solid rgb(255, 15, 235);
-    /* it will add space between border and text of paragraph */
-    padding: 30px;
-}
 .a{
-    /* it will add size, color and style to the border */
     border: 50px ridge olive ;
     background-color: rgb(29, 29, 49);
     color: aqua;
-    text-align: justify;
-    /* It will set the width of the container */
+    text-align: centre;
     min-width: 24%;
     max-width: 30%;
-    /* it will set the height of the container */
     min-height: 150px;
     max-height: 200px;
-    
+    /* it will add shadow to the box or boarder */
+    box-shadow: 10px 10px 3px olivedrab;
     
 }
 /* it will make block level elements Inline */
 li{
+    background-color: navy;
+    padding: 5px;
+    margin: 5px;
     display: inline;
 }
 
