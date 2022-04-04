@@ -14,8 +14,9 @@ h1{
     max-width: 30%;
     min-height: 150px;
     max-height: 200px;
-    /* it will add shadow to the box or boarder */
     box-shadow: 10px 10px 3px olivedrab;
+    /* it will make borders rounded */
+    border-radius: 30px;
     
 }
 /* it will make block level elements Inline */
