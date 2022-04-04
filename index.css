@@ -14,8 +14,8 @@ p{
 }
 .a{
     /* it will add size, color and style to the border */
-    border: 100px ridge olive ;
-    background-color: rgb(18, 18, 240);
+    border: 50px ridge olive ;
+    background-color: rgb(29, 29, 49);
     color: aqua;
     text-align: justify;
     /* It will set the width of the container */
@@ -24,9 +24,11 @@ p{
     /* it will set the height of the container */
     min-height: 150px;
     max-height: 200px;
-    /* It will controll the overflow of the text and keep it within the container */
-    overflow: scroll;
-    /* it will create space between div container and paragraph */
-    padding: 10px;
+    
+    
+}
+/* it will make block level elements Inline */
+li{
+    display: inline;
 }
 
