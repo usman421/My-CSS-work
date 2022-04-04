@@ -5,14 +5,14 @@ h1{
     background-color: maroon;
     text-shadow: 2px 2px 3px blue;
 }
-/* These are the different styles of lists in CSS */
+/* These are the different styles of orders in lists in CSS */
 .a{
-    list-style-type: disc;
+    list-style-type: lower-alpha;
 }
 .b{
-    list-style-type: circle;
+    list-style-type: decimal-leading-zero;
 }
 .c{
-    list-style-type: square;
+    list-style-type: lower-roman;
 }
 
