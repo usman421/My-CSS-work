@@ -1,18 +1,38 @@
 h1{
     text-align: center;
-    font-size: 4em;
+    font-size: 6em;
     color: red;
     background-color: maroon;
-    text-shadow: 2px 2px 3px blue;
+    text-shadow: 2px 2px 10px blue;
 }
-/* These are the different styles of orders in lists in CSS */
-.a{
-    list-style-type: lower-alpha;
+h1:hover{
+    text-align: center;
+    font-size: 6em;
+    color: olive;
+    background-color: rgb(171, 115, 12);
+    text-shadow: 2px 2px 10px yellow;
 }
-.b{
-    list-style-type: decimal-leading-zero;
+*{
+    font-family: Arial, Helvetica, sans-serif;
 }
-.c{
-    list-style-type: lower-roman;
+table{
+    /* It will set the width of the table */
+    width: 600px; 
+    margin: 10px auto;
+    /* it will remove spacing between the cells of border */
+    border-collapse: collapse;
+}
+/* "Even" will add color to the all even number of rows. */
+tr.even{
+    background-color: aqua;
+}
+/* it will change the properties when the pointer will point the table rows */
+tr:hover{
+    color: darkblue;
+    background-color: steelblue;
+}
+th,td{
+    padding: 10px;
+    border: 2px dashed grey;
 }
 
