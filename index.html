@@ -6,6 +6,7 @@
     </head>
     <body>
         <h1>Forms in CSS</h1>
+        <p>Alignment without label:</p>
         <form action="">
             <fieldset>
                 <legend>Login Details
@@ -13,6 +14,21 @@
                 <div>
                     <input type="text" class="mail" placeholder="Email"><br/>
                     <input type="Password" class="password" placeholder="Password"><br/>
+                    <button>login</button>
+                </div>
+            </fieldset>
+            
+        </form>
+        <p>Alignment with label</p>
+        <form action="">
+            <fieldset>
+                <legend>Login Details
+                </legend>
+                <div>
+                    <label >Email</label>
+                    <input type="text" class="mail"><br/>
+                    <label >Password</label>
+                    <input type="Password" class="password"><br/>
                     <button>login</button>
                 </div>
             </fieldset>
