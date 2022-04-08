@@ -15,13 +15,16 @@ h1:hover{
     background-color: rgb(43, 81, 39);
     text-shadow: 2px 2px 10px white;
 }
-p{
-    font-size: 6em;
+.u{
+    width: 220px;
+    background-color: blue;
 }
-img{
-    /* "fixed" will fix the position of the image doesn't matter wherever you scroll on website */
+.l{
+    width: 200px;
+    background-color: red;
     position: fixed;
-    left:600px;
-    top: 570px; 
-} 
+    top: 190px;
+    /* "z-index" will place the element behind the former element if the later element overlaps when enter value -1 */
+    z-index: -1;
+}
 
