@@ -15,25 +15,13 @@ h1:hover{
     background-color: rgb(43, 81, 39);
     text-shadow: 2px 2px 10px white;
 }
-.black{
-    background-color: black;
-    height: 80px;
-    width: 100px;
-    display: inline-block;
-    /* It will create space between to divs */
-    margin: 5px 10px 5px 10px;
-}
-.white{
-    background-color: white;
-    height: 80px;
-    width: 100px;
-    display: inline-block;
-    /* It will create space between two divs */
-    margin: 5px 10px 5px 10px;
+p{
+    font-size: 6em;
 }
 img{
-    /* "relative" will set the position of the image from where it is placed.*/
-    position: relative;
-    top: 20px;
-    left: 10px;
-}
+    /* "fixed" will fix the position of the image doesn't matter wherever you scroll on website */
+    position: fixed;
+    left:600px;
+    top: 570px; 
+} 
+
