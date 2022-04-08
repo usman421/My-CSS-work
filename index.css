@@ -32,8 +32,8 @@ h1:hover{
     margin: 5px 10px 5px 10px;
 }
 img{
-    /* "absolute" will set the position of the image as our desire */
-    position: absolute;
-    top: 210px;
-    left: 150px;
+    /* "relative" will set the position of the image from where it is placed.*/
+    position: relative;
+    top: 20px;
+    left: 10px;
 }
