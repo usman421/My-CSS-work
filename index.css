@@ -15,16 +15,35 @@ h1:hover{
     background-color: rgb(43, 81, 39);
     text-shadow: 2px 2px 10px white;
 }
-.u{
-    width: 220px;
-    background-color: blue;
-}
-.l{
-    width: 200px;
+/* "float will allign the elements as asked." */
+.a{
+    width: 400px;
     background-color: red;
-    position: fixed;
-    top: 190px;
-    /* "z-index" will place the element behind the former element if the later element overlaps when enter value -1 */
-    z-index: -1;
+    float: left;
+}
+.b{
+    width: 200px;
+    background-color: blue;
+    float: left;
+}
+.c{
+    width: 200px;
+    background-color: aqua;
+    float: left;
+}
+.d{
+    width: 400px;
+    background-color: red;
+    float: right;
+}
+.e{
+    width: 200px;
+    background-color: blue;
+    float: right;
+}
+.f{
+    width: 200px;
+    background-color: aqua;
+    float: right;
 }
 
