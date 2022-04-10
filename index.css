@@ -16,20 +16,17 @@ h1:hover{
 body{
     background-color: rgb(101, 161, 141);
 }
-img{
-    width: 800px;
+.a,.b,.c{
+    border: 2px solid blue;
+    background-color: azure;
+    width: 250px;
 }
-/* The syntax for media query is as below */
-/* Media query works for the specific conditions */
-@media only screen and (max-width:600px){
-    /* These changes will be applied when the creen size will be 600 pixels or less. */
-    body{
-        background-color: aquamarine;
-    }
-    img{
-        width: 400px;
-    }
+.main{
+    /* "flex" will make all the elements in main div inline */
+    display: flex;
+   
 }
+
 
 
 
