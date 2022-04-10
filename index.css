@@ -24,8 +24,7 @@ body{
 .main{
     /* "flex" will make all the elements in main div inline */
     display: flex;
-    flex-direction: column;
-   
+    flex-direction: row;
 }
 
 
