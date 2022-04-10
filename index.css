@@ -25,6 +25,7 @@ body{
     /* "flex" will make all the elements in main div inline */
     display: flex;
     flex-direction: row;
+    justify-content: space-between;
 }
 
 
