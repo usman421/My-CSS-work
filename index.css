@@ -13,20 +13,7 @@ h1:hover{
     background-color: rgb(43, 81, 39);
     text-shadow: 2px 2px 10px white;
 }
-body{
-    background-color: rgb(101, 161, 141);
-}
-.a,.b,.c{
-    border: 2px solid blue;
-    background-color: azure;
-    width: 250px;
-}
-.main{
-    /* "flex" will make all the elements in main div inline */
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-}
+
 
 
 
